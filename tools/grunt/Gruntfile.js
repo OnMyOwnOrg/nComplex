@@ -8,14 +8,14 @@ module.exports = function(grunt) {
 					signature: '// scss import collection'
 				},
 				files: {
-					'../../sass/imports.scss': '../../sass/dist/**/*.scss',
+					'../../style/sass/imports.scss': '../../style/sass/dist/**/*.scss',
 				}
 			}
 		},
 		sass: {
 			dist: {
 				files: {
-					'../../css/dist/main.css' : '../../sass/imports.scss'
+					'../../style/css/dist/main.css' : '../../style/sass/imports.scss'
 				}
 			}
 		},
@@ -24,12 +24,12 @@ module.exports = function(grunt) {
 				browsers: ['last 4 versions']
 			},
 			files: {
-				src: '../../css/dist/*.css'
+				src: '../../style/css/dist/*.css'
 			}
 		},
 		watch: {
 			source: {
-				files: ['../../sass/dist/**/*.scss'],
+				files: ['../../style/sass/dist/**/*.scss'],
 				tasks: ['sass_globbing','sass', 'autoprefixer'],
 				options: {
 					livereload: false // needed to run LiveReload
