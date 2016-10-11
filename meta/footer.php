@@ -1,6 +1,6 @@
 <footer>
 	<!-- StyleSheets -->
-	<link href="css/dist/main.css" rel="stylesheet" type="text/css">
+	<link href="style/css/dist/main.css" rel="stylesheet" type="text/css">
 
 	<?php if(file_exists("js/script.js")){ ?>
 		<!-- main.js -->

@@ -7,5 +7,4 @@
 
 	<script type="text/javascript" src="jslibraries/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript" src="jslibraries/knockout-3.4.0.min.js"></script>
-	<script type="text/javascript" src="jslibraries/material.min.js"></script>
 </head>
