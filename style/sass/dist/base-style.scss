@@ -1,0 +1,47 @@
+/* GlobalStyles */
+// TEXT COLORS
+$primary_light_text_color: #f4f4f4;
+$primary_dark_text_color: #111;
+$primary_link_color_hover: #13a3f4;
+$top_text_color: #111;
+
+//COLORS
+$primary_light_bgcolor: #f4f4f4;
+$primary_dark_bgcolor: #21252b;
+//ELEMENT VALUES
+$base_border_radius: 4px;
+
+
+html {
+	font-size: 16px;
+	background-color: $primary_dark_bgcolor;
+	color: $primary_light_text_color;
+}
+body {
+	min-width: 320px;
+}
+.hidden {
+	display: none;
+}
+.alert {
+	font-size: 90%;
+	border-radius: $base_border_radius;
+	&.error {
+		background-color: red;
+		border: 1px solid red;
+	}
+	&.success {
+		background-color: green;
+		border: 1px solid green;
+	}
+	p {
+		padding: .33rem;
+	}
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1880px;
+	width: 100%;
+	height: auto;
+}
